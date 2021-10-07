@@ -8,6 +8,8 @@
 * Каква е разликата между компилатор и интерпретатор?
 * [Фази на транслация](https://en.cppreference.com/w/cpp/language/translation_phases)
 * Въведение в С++
+* Защо да избягваме using namespace std?
+* Каква е разликата между std::endl и '\n'?
 
 ## Помощни материали
 

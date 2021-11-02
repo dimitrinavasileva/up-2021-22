@@ -9,6 +9,44 @@
 	* Последователни if-операции
 	* Switch 
 * Побитови операции
+	* Bitwise **AND** ( & )
+		```
+		* Example :  11001000  
+   			   	   & 10111000 
+     			     -------- 
+  			   	   = 10001000
+		```
+	* Bitwise **OR** ( | )
+		```
+		* Example :  11001000  
+   			   	   & 10111000 
+     			     -------- 
+  			  	   = 11111000
+		```
+	* Bitwise **XOR** ( ^ )
+		```
+		* Example :  11001000  
+   			   	   & 10111000 
+     			     -------- 
+    			   = 01110000
+		```
+	* Shift operators 
+		* **Right shift** ( >> )
+			```
+			* Example:
+				i = 14; // Bit pattern 00001110
+				j = i >> 1; // here we have the bit pattern shifted by 1 thus we get 00000111 = 7 which is 14/2
+			```
+		* **Left shift** ( << ) 
+			```
+			* Example: 
+				int i = 7;    // Decimal 7 is Binary (2^2) + (2^1) + (2^0) = 0000 0111
+				int j = 3;    // Decimal 3 is Binary         (2^1) + (2^0) = 0000 0011
+				k = (i << j); // Left shift operation multiplies the value by 2 to the power of j in decimal
+						// Equivalent to adding j zeros to the binary representation of i
+						// 56 = 7 * 2^3
+						// 0011 1000 = 0000 0111 << 0000 0011
+			```
 
 # Оператори if и switch
 

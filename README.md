@@ -20,3 +20,4 @@ Repository for the "Introduction to programming" practicum for the academic year
 4. [Седмица](https://github.com/dimitrinavasileva/up-2021-22/tree/master/week-04) - Оператори if и switch. Област на действие. Побитови операции.
 5. [Седмица](https://github.com/dimitrinavasileva/up-2021-22/tree/master/week-05) - Циклични процеси. Видове циклични процеси. Контрол на изпълнението. Блок схеми.
 6. [Седмица](https://github.com/dimitrinavasileva/up-2021-22/tree/master/week-06) - Функции
+7. [Седмица](https://github.com/dimitrinavasileva/up-2021-22/tree/master/week-07) - Масиви

@@ -25,3 +25,4 @@ Repository for the "Introduction to programming" practicum for the academic year
 [Подготовка за контролно 1](https://github.com/dimitrinavasileva/up-2021-22/tree/master/exam-preparation/exam-01)
 
 8. [Седмица](https://github.com/dimitrinavasileva/up-2021-22/tree/master/week-08) - Многомерни масиви
+9. [Седмица](https://github.com/dimitrinavasileva/up-2021-22/tree/master/week-09) - Алгоритми в масиви. Алгоритми за сортиране.

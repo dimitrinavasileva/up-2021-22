@@ -1,9 +1,10 @@
 #include <iostream>
+#include <cstddef>
 
 int main()
 {
     std::size_t n;
-    int matr[10][10];
+    int matr[32][32];
 
     std::cin>>n;
     for(std::size_t i=0; i<n; i++)
@@ -14,35 +15,35 @@ int main()
         }
     }
 
-    for(int cj=(int)n-1; cj>=0; cj--)
+    int max_row[32], min_col[32];
+    // initialize max_row and min_col with first val
+    for(std::size_t p=0; p<n; p++)
     {
-        std::size_t j=cj;
-        std::size_t i=0;
-        int sum=0;
-        while(i<n && j<n)
-        {
-            sum += matr[i][j];
-            i++;
-            j++;
-        }
-        std::cout << sum << ' ';
+        max_row[p] = matr[p][0];
+        min_col[p] = matr[0][p];
     }
 
-    for(std::size_t ci=1; ci<n; ci++)
+
+    for(std::size_t i=0; i<n; i++)
     {
-        std::size_t j=0;
-        std::size_t i=ci;
-        int sum=0;
-        while(i<n && j<n)
+        for(std::size_t j=0; j<n; j++)
         {
-            sum += matr[i][j];
-            i++;
-            j++;
+            if(max_row[i] < matr[i][j])
+                max_row[i] = matr[i][j];
+            if(min_col[j] > matr[i][j])
+                min_col[j] = matr[i][j];
         }
-        std::cout << sum << ' ';
     }
 
-    std::cout << '\n';
+    
+    for(std::size_t i=0; i<n; i++)
+    {
+        for(std::size_t j=0; j<n; j++)
+        {
+            if(matr[i][j] == max_row[i] && matr[i][j] == min_col[j])
+                std::cout << i << ' ' << j << '\n';
+        }
+    }
 
     return 0;
 }

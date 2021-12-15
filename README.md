@@ -26,4 +26,5 @@ Repository for the "Introduction to programming" practicum for the academic year
 
 8. [Седмица](https://github.com/dimitrinavasileva/up-2021-22/tree/master/week-08) - Многомерни масиви
 9. [Седмица](https://github.com/dimitrinavasileva/up-2021-22/tree/master/week-09) - Алгоритми в масиви. Алгоритми за сортиране.
-10. [Седмица](https://github.com/dimitrinavasileva/up-2021-22/tree/master/week-10) - Памет и указатели
+10. [Седмица](https://github.com/dimitrinavasileva/up-2021-22/tree/master/week-10) - Памет и указатели. Динамична памет.
+11. [Седмица](https://github.com/dimitrinavasileva/up-2021-22/tree/master/week-11) - Символни низове

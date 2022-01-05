@@ -10,8 +10,6 @@ Repository for the "Introduction to programming" practicum for the academic year
 * [Learn C++](https://www.learncpp.com/)
 * [ISO C++](https://isocpp.org/)
 
-## Домашни работи
-
 ## Материали от часовете
 
 1. [Седмица](https://github.com/dimitrinavasileva/up-2021-22/tree/master/week-01) - Запознаване с курса "Увод в програмирането". Въведение в езиците за програмиране. Инсталиране на среда за програмиране и компилиране на програма написана на С++.
@@ -28,3 +26,4 @@ Repository for the "Introduction to programming" practicum for the academic year
 9. [Седмица](https://github.com/dimitrinavasileva/up-2021-22/tree/master/week-09) - Алгоритми в масиви. Алгоритми за сортиране.
 10. [Седмица](https://github.com/dimitrinavasileva/up-2021-22/tree/master/week-10) - Памет и указатели. Динамична памет.
 11. [Седмица](https://github.com/dimitrinavasileva/up-2021-22/tree/master/week-11) - Символни низове
+12. [Седмица](https://github.com/dimitrinavasileva/up-2021-22/tree/master/week-12) - Рекурсия

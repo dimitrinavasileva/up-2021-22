@@ -2,7 +2,7 @@
 
 void selectionSort(int* arr, int n)
 {
-    for (int i = 0; i < n; i++)
+    for (int i = 0; i < n - 1; i++)
 	{
         int minIdx = i;
         for (int j = i + 1; j < n; j++)

@@ -3,12 +3,12 @@
 void selectionSort(int* arr, int n)
 {
     for (int i = 0; i < n - 1; i++)
-	{
+    {
         int minIdx = i;
         for (int j = i + 1; j < n; j++)
-		{
+	{
             if (arr[j] < arr[minIdx])
-			{
+	    {
                 minIdx = j;
             }
         }
@@ -16,14 +16,15 @@ void selectionSort(int* arr, int n)
     }
 }
 
-void printArray(int* arr, int n) {
+void printArray(int* arr, int n)
+{
     if (n > 0)
-	{
-		std::cout << arr[0] << " ";
-	}
+    {
+	    std::cout << arr[0] << " ";
+    }
 	
     for (int i = 1; i < n; i++)
-	{
+    {
         std::cout << arr[i] << " ";
     }
 	

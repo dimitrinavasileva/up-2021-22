@@ -3,10 +3,10 @@
 void insertionSort(int* arr, int n)
 {
     for (int i = 1; i < n; i++)
-	{
+    {
         int j = i;
         while (j > 0 && arr[j] < arr[j - 1])
-		{
+	{
             std::swap(arr[j], arr[j - 1]);
             j--;
         }
@@ -15,13 +15,8 @@ void insertionSort(int* arr, int n)
 
 void printArray(int* arr, int n)
 {
-    if (n > 0)
-	{
-		std::cout << arr[0] << " ";
-	}
-	
-    for (int i = 1; i < n; i++)
-	{
+    for (int i = 0; i < n; i++)
+    {
         std::cout << arr[i] << " ";
     }
 	
